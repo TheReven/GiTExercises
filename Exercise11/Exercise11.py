@@ -1,7 +1,8 @@
 Belgium = 'Belgium,10445852,Brussels,737966,Europe,1830,Euro,Catholicism,Dutch,French,German'
 
 # a)
-
+Belgium_whole_hyphens = '-' * len(Belgium.split(','))
+print(Belgium_whole_hyphens)
 Belgium_hyphens = '-' * len(Belgium.split(',')[0])
 print(Belgium_hyphens)
 Brussels_hyphens = '-' * len(Belgium.split(',')[2])
