@@ -11,12 +11,12 @@ print(Brussels_hyphens)
 # b)
 
 colons = Belgium.replace(',', ':')
-print(colons)
+print("String with Colons: " + colons)
 semicolons = Belgium.replace(',', ';')
-print(semicolons)
+print("String with Semi Colons: " + semicolons)
 
 # c)
 
 cities = Belgium.split(',')
 population = int(cities[1]) + int(cities[3])
-print("Belgium Population:", + population)
+print("Belgium + Brussels Population:", + population)
