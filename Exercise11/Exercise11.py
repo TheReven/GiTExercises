@@ -19,6 +19,4 @@ print(semicolons)
 
 cities = Belgium.split(',')
 population = int(cities[1]) + int(cities[3])
-print("Population:", + population)
-population2 = int(cities[3]) + int(cities[5])
-print("Population:", + population2)
+print("Belgium Population:", + population)
